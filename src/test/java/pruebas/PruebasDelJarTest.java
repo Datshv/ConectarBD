@@ -4,17 +4,12 @@ import static org.junit.Assert.assertNotNull;
 
 import org.junit.Test;
 
-import conexionBD.ConexionBaseDeDatos;
 import consultas.ConsultasBD;
+
+
 
 public class PruebasDelJarTest {
 
-	@Test
-	public void test() {
-		ConexionBaseDeDatos conexion = new ConexionBaseDeDatos();
-		System.out.println(conexion.crearConexion());
-		conexion.cerrarConexion();
-	}
 	
 	@Test
 	public void testConsulta(){
