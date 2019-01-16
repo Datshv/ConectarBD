@@ -20,7 +20,7 @@
          <artifactId>ConsultasBaseDeDatos</artifactId>
          <scope>system</scope>
          <version>0.0.1-SNAPSHOT</version>
-         <systemPath>${basedir}\ConexionBD.jar</systemPath>
+         <systemPath>${basedir}/ConexionBD.jar</systemPath>
       </dependency>
 
   </dependencies>
