@@ -13,6 +13,7 @@ public class PruebasDelJarTest {
 	
 	@Test
 	public void testConsulta(){
+	
 		ConsultasBD consulta = new ConsultasBD();
 		System.out.println(consulta.consultarEnBaseDatos("SELECT TRAN_AMT FROM TBAADM.DTD WHERE TRIM(TRAN_ID) = 'M15' AND PART_TRAN_TYPE = 'C'"));
 		assertNotNull(consulta.consultarEnBaseDatos("SELECT TRAN_AMT FROM TBAADM.DTD WHERE TRIM(TRAN_ID) = 'M15' AND PART_TRAN_TYPE = 'C'"));
